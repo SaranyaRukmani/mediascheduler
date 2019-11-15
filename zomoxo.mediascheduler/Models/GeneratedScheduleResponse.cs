@@ -7,9 +7,9 @@ namespace zomoxo.mediascheduler.Models
     /// </summary>
     public class GeneratedScheduleResponse
     {
-        public int TotalRequestedDuration { get; set; }
-        public int MediaDuration { get; set; }
-        public int RemainingDuration { get; set; }
+        public double TotalRequestedDuration { get; set; }
+        public double MediaDuration { get; set; }
+        public double RemainingDuration { get; set; }
         public IList<ScheduledMedia> ScheduledMedia { get; set; }
     }
 }

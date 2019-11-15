@@ -7,7 +7,7 @@ namespace zomoxo.mediascheduler.Models
     {
         public string MediaName { get; set; }
         public int Duration { get; set; }
-        public string NumberOfTimesToPlay { get; set; }
+        public int NumberOfTimesToPlay { get; set; }
         public int Priority { get; set; }
     }
 }
